@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report Lost Item</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+</head>
+<body>
+
+<nav>
+<h2>AI Lost & Found</h2>
+</nav>
+
+<div class="container">
+
+<h2>Report Lost Item</h2>
+
+<form action="report_lost.php" method="POST" enctype="multipart/form-data">
+<input id="location" name="location" placeholder="Location">
+<button type="button" onclick="getLocation()">Use Current Location</button>
+<input name="student" placeholder="Branch and Roll No">
+
+<input name="title" placeholder="Item Name">
+
+<textarea name="description"></textarea>
+
+<select name="category">
+<option>Electronics</option>
+<option>Documents</option>
+<option>Personal</option>
+</select>
+
+<input name="location" placeholder="Location where lost">
+
+<input type="datetime-local" name="time">
+
+<input type="file" name="image">
+
+<input name="contact" placeholder="Email">
+
+<button class="btn btn-red">Submit Lost Report</button>
+
+</form>
+
+</div>
+
+</body>
+</html>

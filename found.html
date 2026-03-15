@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Report Found Item</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+</head>
+<body>
+
+<nav>
+<h2>AI Lost & Found</h2>
+</nav>
+
+<div class="container">
+
+<h2>Report Found Item</h2>
+
+<form action="report_found.php" method="POST" enctype="multipart/form-data">
+
+<input name="student" placeholder="Branch and Roll No">
+
+<input name="title" placeholder="Item Name">
+
+<textarea name="description"></textarea>
+
+<input name="location" placeholder="Location where found">
+
+<input name="current_location">
+
+<input type="file" name="image">
+
+<button class="btn btn-green">Submit Found Report</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
