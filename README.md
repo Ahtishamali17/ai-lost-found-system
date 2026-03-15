@@ -165,18 +165,25 @@ student123
 
 ## 📸 Screenshots
 
-Add screenshots here:
+## 📸 Project Screenshots
 
-Home Page
-Lost Item Form
-Found Item Form
-Admin Dashboard
-AI Match Results
+![Screenshot1](images/Screenshot%202026-03-15%20130733.png)
 
-Example:
+![Screenshot2](images/Screenshot%202026-03-15%20164040.png)
 
-screenshots/home.png
-screenshots/dashboard.png
+![Screenshot3](images/Screenshot%202026-03-15%20164055.png)
+
+![Screenshot4](images/Screenshot%202026-03-15%20164109.png)
+
+![Screenshot5](images/Screenshot%202026-03-15%20164122.png)
+
+![Screenshot6](images/Screenshot%202026-03-15%20164237.png)
+
+![Screenshot7](images/Screenshot%202026-03-15%20164312.png)
+
+![Screenshot8](images/Screenshot%202026-03-15%20164345.png)
+
+
 
 ---
 
